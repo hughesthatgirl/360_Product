@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var data = require('gulp-data');
+var task = require('gulp-task');
 
 // ------------------------------------------
 // Static Server - Page Reload

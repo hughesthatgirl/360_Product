@@ -1,0 +1,24 @@
+{
+  "name": "360 Product Viewer",
+  "version": "1.0.0",
+  "description": "360 Product Viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughesthatgirl/360_Product.git"
+  },
+  "author": "Joanna Hughes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hughesthatgirl/360_Product/issues"
+  },
+  "homepage": "https://github.com/hughesthatgirl/360_Product#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.3.1"
+  }
+}
