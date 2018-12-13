@@ -6,6 +6,7 @@ var slider = document.getElementById("slider");
 var imageNo = 1;
 var images = [];
 
+
 //Preloading images
 for (var i = 1; i < 25; i++){
     images[i] = new Image();
