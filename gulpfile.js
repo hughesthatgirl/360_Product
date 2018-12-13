@@ -20,6 +20,6 @@ gulp.task('browserSync', function() {
 // ------------------------------------------
 gulp.task('watch', ['browserSync'], function (){
     // Reloads the browser whenever our HTML or CSS files change
-    gulp.watch('app/**/*.+(html|css)', browserSync.reload);
+    gulp.watch('app/**/*.+(html|css|js)', browserSync.reload);
 
 });
